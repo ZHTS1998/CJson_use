@@ -1,0 +1,35 @@
+----------------------------------------
+[JOSN BUILD INPUT]（以一个空白行结束）
+----------------------------------------
+dcw875b3 0 xyiblhoz 1 83934887916
+vs3b36tg 1 zzrawr 1 83860988382
+pej4n2y4 1 cjajiw 1 33813315609
+4h7hlzyx 0 mfzhgpimd 0 37549461613
+mmikjayf 0 isvofe 1 25940942121,28154602089
+w2w90ey4 1 pomnm 1 98764568759,70830452050
+xlq7x83e 0 ybtvzpe 1 52924996660
+3omxdu8c 1 xtszyru 1 67426424889,99291181166
+yh8d913e 1 yoyoec 0 22054095659
+
+----------------------------------------
+[JOSN BUILD OUTPUT]（只要是规范的JSON String，输出格式不限）
+----------------------------------------
+{"amount":9,"student":{"amount":4,"male_ratio":"25%","female_ratio":"75%","contacts":[{"id":"dcw875b3","name":"xyiblhoz","gender":1,"mobile_phones":["83934887916"]},{"id":"4h7hlzyx","name":"mfzhgpimd","gender":0,"mobile_phones":["37549461613"]},{"id":"mmikjayf","name":"isvofe","gender":1,"mobile_phones":["25940942121","28154602089"]},{"id":"xlq7x83e","name":"ybtvzpe","gender":1,"mobile_phones":["52924996660"]}]},"teacher":{"amount":5,"male_ratio":"20%","female_ratio":"80%","contacts":[{"id":"vs3b36tg","name":"zzrawr","gender":1,"mobile_phones":["83860988382"]},{"id":"pej4n2y4","name":"cjajiw","gender":1,"mobile_phones":["33813315609"]},{"id":"w2w90ey4","name":"pomnm","gender":1,"mobile_phones":["98764568759","70830452050"]},{"id":"3omxdu8c","name":"xtszyru","gender":1,"mobile_phones":["67426424889","99291181166"]},{"id":"yh8d913e","name":"yoyoec","gender":0,"mobile_phones":["22054095659"]}]}}
+----------------------------------------
+[JSON PARSE INPUT]（输入为1行，字符数小于2000）
+----------------------------------------
+{"amount":10,"student":{"amount":5,"male_ratio":"40%","female_ratio":"60%","contacts":[{"id":"sm846npo","name":"ipjdoa","gender":1,"mobile_phones":["39908344637"]},{"id":"7xjn6bve","name":"yzpzzvr","gender":1,"mobile_phones":["35204892244","59388875229"]},{"id":"mjcueyna","name":"zfyfd","gender":0,"mobile_phones":["97382704371","06235095245"]},{"id":"wbx2o3fo","name":"stdyge","gender":0,"mobile_phones":["17338953645"]},{"id":"c6yjof14","name":"novoyt","gender":1,"mobile_phones":["01116600383","05584084933"]}]},"teacher":{"amount":5,"male_ratio":"60%","female_ratio":"40%","contacts":[{"id":"ktxe23jh","name":"kdhfkdur","gender":0,"mobile_phones":["43704159399","36984052711"]},{"id":"uyze0hxi","name":"sejznri","gender":1,"mobile_phones":["94713133118"]},{"id":"3yghgqmf","name":"hsyyow","gender":0,"mobile_phones":["27058150928","45332772910"]},{"id":"ysuusn87","name":"pofpc","gender":1,"mobile_phones":["81008059154"]},{"id":"iv9vapbr","name":"ebjhvkann","gender":0,"mobile_phones":["66016130585","41613800305"]}]}}
+----------------------------------------
+[JSON PARSE OUTPUT]（以空格分隔各字段）
+----------------------------------------
+sm846npo 0 ipjdoa 1 39908344637
+7xjn6bve 0 yzpzzvr 1 35204892244,59388875229
+mjcueyna 0 zfyfd 0 97382704371,06235095245
+wbx2o3fo 0 stdyge 0 17338953645
+c6yjof14 0 novoyt 1 01116600383,05584084933
+ktxe23jh 1 kdhfkdur 0 43704159399,36984052711
+uyze0hxi 1 sejznri 1 94713133118
+3yghgqmf 1 hsyyow 0 27058150928,45332772910
+ysuusn87 1 pofpc 1 81008059154
+iv9vapbr 1 ebjhvkann 0 66016130585,41613800305
+----------------------------------------
